@@ -1,7 +1,7 @@
 #!/bin/bash
 
 MAIN_PKG(){
-sudo pacman -S xfce4 xfce4-goodies xdg-user-dirs arc-gtk-theme papirus-icon-theme gnome-calculator scrot pulseaudio transmission-gtk mpv firefox chromium torbrowser-launcher github-cli gvfs-mtp gvfs file-roller neofetch ntfs-3g pavucontrol wget xorg-server xorg-xinit network-manager-applet telegram-desktop os-prober xf86-input-libinput bluez bluez-utils blueman pulseaudio-bluetooth --needed --noconfirm
+sudo pacman -S xfce4 xfce4-goodies xdg-user-dirs arc-gtk-theme papirus-icon-theme gnome-calculator scrot pulseaudio qbittorrent mpv firefox chromium torbrowser-launcher github-cli gvfs-mtp gvfs file-roller neofetch ntfs-3g pavucontrol wget xorg-server xorg-xinit network-manager-applet telegram-desktop os-prober xf86-input-libinput bluez bluez-utils blueman pulseaudio-bluetooth --needed --noconfirm
 }
 
 
