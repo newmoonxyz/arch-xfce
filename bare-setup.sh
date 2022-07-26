@@ -15,16 +15,16 @@ EMERGE_CONF(){
 cp -r .config .xinitrc .zshrc .fonts /$HOME/ 
 fc-cache -fv
 sudo systemctl enable bluetooth.service
-sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo echo '
-Section "InputClass"
-    Identifier "touchpad"
-    Driver "libinput"
-    MatchIsTouchpad "on"
-    Option "Tapping" "on"
-    Option "TappingButtonMap" "lmr"
-EndSection ' >> /etc/X11/xorg.conf.d/30-touchpad.conf
+#sudo echo "GRUB_DISABLE_OS_PROBER=false" >> /etc/default/grub
+#sudo grub-mkconfig -o /boot/grub/grub.cfg
+#sudo echo '
+#Section "InputClass"
+#    Identifier "touchpad"
+#    Driver "libinput"
+#    MatchIsTouchpad "on"
+#    Option "Tapping" "on"
+#    Option "TappingButtonMap" "lmr"
+#EndSection ' >> /etc/X11/xorg.conf.d/30-touchpad.conf
 }
 
 REBT(){
